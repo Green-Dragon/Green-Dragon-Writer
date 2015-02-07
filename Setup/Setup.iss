@@ -27,10 +27,6 @@ CreateAppDir=False
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
-[Tasks]
-Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
-
 [Files]
 Source: "C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\Green Dragon Writer.exe"; DestDir: "{pf}\Green Dragon\"; Flags: ignoreversion
 Source: "C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\en-US.dic"; DestDir: "{pf}\Green Dragon\"; Flags: ignoreversion
@@ -62,8 +58,4 @@ Source: "C:\Users\emils_000\Desktop\Raleway-Thin.otf"; DestDir: "{fonts}"
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
-Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
-Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: quicklaunchicon
 
-[Run]
-Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent
