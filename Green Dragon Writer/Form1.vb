@@ -404,7 +404,7 @@ Public Class Form1
         SaveFileDialog1.Filter = "Rich Text Files|*.rtf|Text Files|*.txt"
         If SaveFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
             RichTextBoxPrintCtrl1.SaveFile(SaveFileDialog1.FileName)
-            Me.Text = "TVHD ATE - " & SaveFileDialog1.FileName.ToString
+            Me.Text = "Green Dragon Writer - " & SaveFileDialog1.FileName.ToString
             Docname = SaveFileDialog1.FileName.ToString
             LabelStatus.Text = "Status : " & "Document Saved"
         End If
@@ -414,7 +414,7 @@ Public Class Form1
         Dim OpenFileDialog1 As New OpenFileDialog
         OpenFileDialog1.Filter = "Rich Text Files|*.rtf"
         If OpenFileDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
-            Me.Text = "TVHD ATE - " & OpenFileDialog1.FileName.ToString
+            Me.Text = "Green Dragon Writer - " & OpenFileDialog1.FileName.ToString
             RichTextBoxPrintCtrl1.LoadFile(OpenFileDialog1.FileName)
             Spelling1.Text = RichTextBoxPrintCtrl1.Text
             Docname = OpenFileDialog1.FileName.ToString

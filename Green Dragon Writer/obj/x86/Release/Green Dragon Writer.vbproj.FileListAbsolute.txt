@@ -11,3 +11,16 @@ C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green Dragon Writer\obj
 C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.exe
 C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.xml
 C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.pdb
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.exe
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.xml
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.pdb
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\Green Dragon Writer.exe
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\Green Dragon Writer.pdb
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\Green Dragon Writer.xml
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.vbprojResolveAssemblyReference.cache
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green_Dragon_Writer.AboutForm.resources
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green_Dragon_Writer.FindTextForm.resources
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green_Dragon_Writer.Form1.resources
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green_Dragon_Writer.Resources.resources
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green_Dragon_Writer.SplashScreen1.resources
+C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\obj\x86\Release\Green Dragon Writer.vbproj.GenerateResource.Cache
