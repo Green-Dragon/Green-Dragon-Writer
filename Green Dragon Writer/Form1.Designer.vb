@@ -608,7 +608,7 @@ Partial Class Form1
         '
         'WordDictionary1
         '
-        Me.WordDictionary1.DictionaryFolder = "\"
+        Me.WordDictionary1.DictionaryFolder = "\Program Files (x86)\Green Dragon\"
         '
         'Timer1
         '
