@@ -15,7 +15,6 @@ AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Setup
@@ -23,19 +22,16 @@ OutputBaseFilename=Setup
 SetupIconFile=C:\Users\emils_000\Desktop\Dragon\Green Dragon\greendragon.ico
 Compression=lzma
 SolidCompression=yes
+CreateAppDir=False
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
-[Tasks]
-Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
-
 [Files]
-Source: "C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green-Dragon-Writer\bin\Release\Green Dragon Writer.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green-Dragon-Writer\bin\Release\en-US.dic"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green-Dragon-Writer\bin\Release\NetSpell.SpellChecker.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\emils_000\Desktop\Git Stuff\Green Dragon Writer\Green-Dragon-Writer\bin\Release\ProBaseAdvancedTextBox.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\Green Dragon Writer.exe"; DestDir: "{pf}\Green Dragon\"; Flags: ignoreversion
+Source: "C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\en-US.dic"; DestDir: "{pf}\Green Dragon\"; Flags: ignoreversion
+Source: "C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\NetSpell.SpellChecker.dll"; DestDir: "{pf}\Green Dragon\"; Flags: ignoreversion
+Source: "C:\Users\emils_000\Desktop\Git Stuff\Green-Dragon-Writer\Green Dragon Writer\bin\Release\ProBaseAdvancedTextBox.dll"; DestDir: "{pf}\Green Dragon\"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 Source: "C:\Windows\Fonts\Ubuntu-BI.ttf"; DestDir: "{fonts}"; Flags: onlyifdoesntexist uninsneveruninstall; FontInstall: "Ubuntu Bold Italic"
 Source: "C:\Windows\Fonts\Ubuntu-B_0.ttf"; DestDir: "{fonts}"; Flags: onlyifdoesntexist uninsneveruninstall; FontInstall: "Ubuntu Bold"
@@ -62,8 +58,4 @@ Source: "C:\Users\emils_000\Desktop\Raleway-Thin.otf"; DestDir: "{fonts}"
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
-Name: "{commondesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
-Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: quicklaunchicon
 
-[Run]
-Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChange(MyAppName, '&', '&&')}}"; Flags: nowait postinstall skipifsilent

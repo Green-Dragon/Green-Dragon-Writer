@@ -606,6 +606,10 @@ Partial Class Form1
         '
         Me.Spelling1.Dictionary = Me.WordDictionary1
         '
+        'WordDictionary1
+        '
+        Me.WordDictionary1.DictionaryFolder = "\Program Files (x86)\Green Dragon\"
+        '
         'Timer1
         '
         Me.Timer1.Enabled = True
